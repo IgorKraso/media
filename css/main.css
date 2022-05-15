@@ -1,50 +1,72 @@
- @font-face {
-     font-family: 'Graphik LC TT';
-     font-weight: 400;
-     font-style: normal;
-     src: url(../fonts/Graphik-Regular.ttf);
- }
- @font-face {
-     font-family: 'Graphik LC TT';
-     font-weight: 600;
-     font-style: normal;
-     src: url(../fonts/Graphik-Semibold.ttf);
+@font-face {
+    font-family: 'Graphik LC TT';
+    font-weight: 400;
+    font-style: normal;
+    src: url(../fonts/Graphik-Regular.ttf);
+}
 
- }
- 
- /* Обнулуние */
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+@font-face {
+    font-family: 'Graphik LC TT';
+    font-weight: 600;
+    font-style: normal;
+    src: url(../fonts/Graphik-Semibold.ttf);
 }
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+
+/* Обнулуние */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
-nav,footer,header,aside{display: block;}
-html,body{
-	height: 100%;
-	width: 100%;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
     font-family: 'Graphik LC TT', sans-serif;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 15px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+    font-size: 100%;
+    line-height: 1;
+    text-size-adjust: 100%;
 }
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
 
 .conteiner {
     padding: 0 20px;
 }
-
-
-

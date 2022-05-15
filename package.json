@@ -1,0 +1,26 @@
+{
+    "name": "homework9",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "stylelint": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IgorKraso/test.git"
+    },
+    "author": "garrakrass@gmail.com",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/IgorKraso/test/issues"
+    },
+    "homepage": "https://github.com/IgorKraso/test#readme",
+    "devDependencies": {
+        "prettier": "^2.6.2",
+        "stylelint": "^14.8.2",
+        "stylelint-config-prettier": "^9.0.3",
+        "stylelint-config-standard": "^25.0.0"
+    }
+}
