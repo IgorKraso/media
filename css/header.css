@@ -1,5 +1,5 @@
 .header__conteiner {
-    max-width: 1338px;
+    max-width: 1378px;
     margin: 0 auto;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -44,7 +44,6 @@
 }
 
 .header__button {
-    display: inline-block;
     text-align: center;
     width: 120px;
     padding: 12px 0;

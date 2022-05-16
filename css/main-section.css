@@ -1,0 +1,41 @@
+.main-section__conteiner {
+    max-width: 1290px;
+}
+
+.main-section__article {
+}
+
+.main-section__title {
+    max-width: 552px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+}
+
+.main-section__text {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.main-section__buttons {
+}
+
+.main-section .try-it__button {
+}
+
+.book__button {
+}
+
+.main-section__info {
+}
+
+.main-section-img__wrapper {
+}
+
+.main-section__img {
+    max-width: 751px;
+}
