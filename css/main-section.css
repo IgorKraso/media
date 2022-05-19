@@ -1,41 +1,64 @@
-.main-section__conteiner {
-    max-width: 1290px;
+.main-section {
+    padding-top: 129px;
+    padding-bottom: 172px;
+    background-color: #e5e5e5;
 }
 
-.main-section__article {
+.main-section__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .main-section__title {
     max-width: 552px;
-    font-style: normal;
     font-weight: 600;
     font-size: 65px;
     line-height: 70px;
 }
 
 .main-section__text {
-    font-family: 'Graphik LC TT';
-    font-style: normal;
+    margin-top: 50px;
+    max-width: 471px;
     font-weight: 400;
     font-size: 25px;
     line-height: 35px;
 }
 
 .main-section__buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
 }
 
-.main-section .try-it__button {
+.main-section__btn {
+    width: 160px;
+    padding: 19px 0;
+    text-align: center;
 }
 
-.book__button {
+.book__btn {
+    border: 1px solid rgb(0 0 0 / 50%);
+    color: #000;
+}
+
+.book__btn:hover {
+    background-color: rgb(203 203 203);
+    border: 1px solid rgb(26 21 21 / 50%);
+    color: rgb(26 21 21);
+    transition: 0.3s ease-in;
 }
 
 .main-section__info {
+    margin-top: 25px;
 }
 
 .main-section-img__wrapper {
+    max-width: 735px;
 }
 
 .main-section__img {
-    max-width: 751px;
+    margin-top: 20px;
+    max-width: 100%;
 }

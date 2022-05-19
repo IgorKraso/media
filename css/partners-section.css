@@ -1,0 +1,51 @@
+.partners-section {
+    background: #ff9c7d;
+    padding: 106px 0;
+}
+
+.partners-section__title {
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+}
+
+.partners-section__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.partners-section__logo__specialized {
+    max-width: 138px;
+}
+
+.partners-section__logo__virgin {
+    max-width: 72px;
+}
+
+.partners-section__logo__tidal {
+    max-width: 150px;
+}
+
+.partnerss-section__logo__revolut {
+    max-width: 112px;
+}
+
+.partners-section__logo__yelp {
+    max-width: 107px;
+}
+
+.partners-section__logo__daimler {
+    max-width: 150px;
+}
+
+.partners-section__link {
+    transform: scale(1);
+}
+
+.partners-section__link:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
