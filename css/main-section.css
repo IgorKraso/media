@@ -28,8 +28,7 @@
 .main-section__buttons {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    width: 330px;
+    gap: 10px;
 }
 
 .main-section__btn {
@@ -39,14 +38,14 @@
 }
 
 .book__btn {
-    border: 1px solid rgb(0 0 0 / 50%);
+    border: 1px solid #00000080;
     color: #000;
 }
 
 .book__btn:hover {
-    background-color: rgb(203 203 203);
-    border: 1px solid rgb(26 21 21 / 50%);
-    color: rgb(26 21 21);
+    background-color: #cbcbcb;
+    border: 1px solid #1a151580;
+    color: #1a1515;
     transition: 0.3s ease-in;
 }
 

@@ -1,6 +1,6 @@
 .localize-section {
     padding-top: 120px;
-    padding-bottom: 147px;
+    padding-bottom: 150px;
     background-color: #fff8e4;
 }
 
@@ -11,17 +11,17 @@
 
 .localize-section__cards {
     display: flex;
-    justify-content: space-around;
-    column-gap: 54px;
-    row-gap: 110px;
-    flex-wrap: wrap;
+    column-gap: 130px;
+    row-gap:54px;
+    flex-wrap: wrap; 
+    margin-top: 58px;
 }
 
 .localize-section__card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 58px;
+    row-gap: 23px;   
     padding-top: 21px;
     max-width: 320px;
 }
@@ -33,7 +33,6 @@
 }
 
 .card__title {
-    margin-top: 23px;
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
@@ -41,7 +40,6 @@
 }
 
 .card__text {
-    margin-top: 23px;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
