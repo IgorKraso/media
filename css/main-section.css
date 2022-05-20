@@ -32,7 +32,7 @@
 }
 
 .main-section__btn {
-    width: 160px;
+    min-width: 160px;
     padding: 19px 0;
     text-align: center;
 }
@@ -40,13 +40,13 @@
 .book__btn {
     border: 1px solid #00000080;
     color: #000;
+    transition: all 0.3s ease-in;
 }
 
 .book__btn:hover {
     background-color: #cbcbcb;
     border: 1px solid #1a151580;
     color: #1a1515;
-    transition: 0.3s ease-in;
 }
 
 .main-section__info {
