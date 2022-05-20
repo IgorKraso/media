@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Localise</title>
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main-section.css" />
@@ -16,8 +17,7 @@
     <link rel="stylesheet" href="./css/reward-section.css">
     <link rel="stylesheet" href="./css/integration-section.css">
     <link rel="stylesheet" href="./css/tryit-section.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <title>Localise</title>
+    <link rel="stylesheet" href="./css/footer.css">    
 </head>
 
 <body>
@@ -26,7 +26,7 @@
             <div class="header__wrapper">
                 <div class="inner-wrapper">
                     <a href="/" class="logo">
-                        <img class="logo-img" src="./images/logo.png" alt="logo" width="130px" />
+                        <img class="logo-img" src="./images/logo.png" alt="logo" />
                     </a>
                     <nav class="header__nav">
                         <a href="/" class="nav__link link">Product</a>
@@ -48,7 +48,8 @@
             </div>
         </div>
     </header>
-    <section class="main-section">
+    <main class="main">
+       <section class="main-section">
         <div class="conteiner">
             <div class="main-section__wrapper">
                 <div class="main-section__article">
@@ -304,18 +305,25 @@
         <div class="revlut-section__conteiner conteiner">
             <div class="revolut-section__content">
                 <div class="revolut-section__info">
-                    <p class="revolut-section__text">
-                        “Lokalise has turned a task we were dreading
-                        into an absolute pleasure. Great platform,
-                        intuitive UX, powerful API. The automatic text
-                        recognition for screenshots has been a lifesaver,
-                        and over-the-air updates are the icing on the cake.”
-                    </p>
-                    <p class="revolut-section__author-info">
-                        Edward Cooper, Chief Mobile Officer
-                    </p>
+                  <figure class="revolut-section__figure">
+                      <blockquote cite="/">
+                          <p class="revolut-section__text">
+                             “Lokalise has turned a task we were dreading
+                              into an absolute pleasure. Great platform,
+                              intuitive UX, powerful API. The automatic text
+                              recognition for screenshots has been a lifesaver,
+                              and over-the-air updates are the icing on the cake.”
+                          </p>
+                        </blockquote>                       
+                        <figcaption class="revolut-section__author-info">
+                            Edward Cooper, Chief Mobile Officer
+                        </figcaption>
+                  </figure>                    
                     <a href="*" class="revolut-link">
-                        <img src="./images/partner-section/revolut.svg" alt="revolut-logo" class="revolut-logo"></a>
+                        <img 
+                        src="./images/partner-section/revolut.svg" 
+                        alt="revolut-logo" class="revolut-logo">
+                    </a>
 
 
                 </div>
@@ -374,7 +382,9 @@
                 </button>
             </div>
         </div>
-    </section>
+    </section> 
+    </main>
+    
     <footer class="footer">
         <div class="footer__conteiner conteiner">
             <div class="footer__columns__wrapper">

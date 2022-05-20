@@ -6,8 +6,9 @@
 }
 
 .header__conteiner {
-    max-width: 1378px;
+    max-width: 1388px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .header__wrapper {
@@ -19,15 +20,17 @@
 .logo-img {
     max-width: 130px;
 }
+.inner-wrapper {
+    display: flex;
+    gap: 50px;
+}
 
 .header__nav {
     display: inline-flex;
-    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    width: 539px;
-    margin-left: 51px;
-}
+    gap: 50px;
+    }
 
 .inner-wrapper {
     display: flex;
@@ -50,8 +53,9 @@
 
 .header__buttons {
     display: flex;
-    justify-content: space-between;
-    width: 250px;
+    gap: 10px;
+    flex-wrap: wrap;
+    
 }
 
 .header__btn {
