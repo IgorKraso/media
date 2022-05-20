@@ -1,0 +1,42 @@
+.revolut-section {
+    padding-top: 53px;
+    padding-bottom: 105px;
+    background-color: #c9e8f2;
+}
+
+.revolut-section__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.revolut-section__info {
+}
+
+.revolut-section__text {
+    max-width: 870px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.revolut-section__author-info {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.revolut-link {
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.revolut-section__img-wrapper {
+    max-width: 310px;
+}
+
+.revolut-section__author-pic {
+    width: 100%;
+}

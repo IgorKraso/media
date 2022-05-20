@@ -2,14 +2,14 @@
     font-family: 'Graphik LC TT';
     font-weight: 400;
     font-style: normal;
-    src: url(../fonts/Graphik-Regular.ttf);
+    src: url(./fonts/Graphik-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Graphik LC TT';
     font-weight: 600;
     font-style: normal;
-    src: url(../fonts/Graphik-Semibold.ttf);
+    src: url(./fonts/Graphik-Semibold.ttf);
 }
 
 /* Обнулуние */
@@ -54,6 +54,7 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Graphik LC TT', sans-serif;
+    color: #000;
     font-size: 100%;
     line-height: 1;
     text-size-adjust: 100%;
@@ -68,5 +69,22 @@ img {
 }
 
 .conteiner {
+    max-width: 1330px;
+    margin: 0 auto;
     padding: 0 20px;
+}
+
+.button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000;
 }

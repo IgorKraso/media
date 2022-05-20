@@ -1,0 +1,45 @@
+.tryit-section {
+    padding-top: 119px;
+    padding-bottom: 161px;
+    background-color: #ff9c7d;
+}
+
+.tryit-section__wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.tryit-section__title {
+    max-width: 784px;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.tryit-section__subtitle {
+    margin-top: 29px;
+    max-width: 438px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.try-it-section__btn {
+    margin-top: 54px;
+    width: 160px;
+    padding: 19px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.try-it-section__btn:hover {
+    background-color: #3f3f3f;
+    transition: 0.3s linear;
+}
+
+.try-it-section__btn:active {
+    background-color: #000000f4;
+}
