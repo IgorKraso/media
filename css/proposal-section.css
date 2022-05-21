@@ -4,17 +4,15 @@
 
 .proposal-section__article {
     display: flex;
-   column-gap: 155px;
-   row-gap: 50px;
+    column-gap: 155px;
+    row-gap: 50px;
     align-items: center;
-    flex-wrap: wrap;
     padding: 125px 0;
 }
 
 .proposal-section article:nth-child(2),
 .proposal-section article:nth-child(4) {
-    flex-flow: row-reverse;
-    flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 .proposal-section article:nth-child(1) {

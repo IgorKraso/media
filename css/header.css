@@ -85,3 +85,17 @@
     background-color: #ff3c06;
     transition: 0.3s ease-in;
 }
+
+.header__mobile {
+    display: none;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+    padding: 5px 0;
+}
+
+.header__mobile__line {
+    height: 5px;
+    margin: 2.5px;
+    background-color: #000;
+}

@@ -11,10 +11,8 @@
 
 .partners-section__logo {
     display: flex;
-    column-gap: 102px;
-    row-gap: 40px;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 70px;
 }
 
