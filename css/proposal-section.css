@@ -1,5 +1,5 @@
 .proposal-section {
-    background-color: #e5e5e5;
+    background-color: #fff;
 }
 
 .proposal-section__article {
@@ -67,4 +67,8 @@
 .underline {
     border-bottom: 2px solid #000;
     color: #000;
+}
+
+.proposal-section__mobile {
+    display: none;
 }

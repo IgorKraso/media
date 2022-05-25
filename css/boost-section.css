@@ -12,12 +12,13 @@
     margin-top: 92px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    column-gap: 30px;
 }
 
 .boost-section__article {
     position: relative;
     min-height: 545px;
+    padding-bottom: 40px;
 }
 
 .boost-section__article__img {

@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    flex-wrap: wrap;
+    column-gap: 10px;
     padding-bottom: 95px;
     border-bottom: 1px solid #000;
 }
@@ -49,6 +49,13 @@
     line-height: 23px;
     border-bottom: 2px solid #000;
     color: #000;
+}
+
+.footer__col__wrapper {
+    display: flex;
+    row-gap: 40px;
+    column-gap: 40px;
+    justify-content: space-between;
 }
 
 .footer__col {

@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .reward-section__icon {
@@ -29,6 +28,7 @@
     padding-bottom: 23px;
     border-left: 1px solid #000;
 }
+
 .rate__icon__first-wrapper {
     max-width: 128px;
 }
@@ -36,6 +36,7 @@
 .rate__icon__second-wrapper {
     max-width: 150px;
 }
+
 .rate__icon {
     width: 100%;
 }

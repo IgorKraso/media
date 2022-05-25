@@ -9,8 +9,14 @@
     justify-content: space-between;
 }
 
-.revolut-section__text {
+.revolut-section__info {
+}
+
+.revolut-section__figure {
     max-width: 870px;
+}
+
+.revolut-section__text {
     margin-top: 10px;
     font-weight: 400;
     font-size: 30px;
