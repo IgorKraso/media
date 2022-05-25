@@ -282,6 +282,10 @@
         margin: 31px 0;
     }
 
+    .proposal-section article:nth-child(4) {
+        padding-bottom: 85px;
+    }
+
     /* localize-section */
     .localize-section {
         padding-top: 70px;
@@ -383,8 +387,16 @@
     }
 }
 @media screen and (max-width: 660px) {
+    .header__conteiner {
+        padding: 0 20px;
+    }
+
     .conteiner {
         padding: 0 30px;
+    }
+
+    .main-section__title {
+        text-align: center;
     }
 
     .main-section__btn {
@@ -393,6 +405,10 @@
 
     .proposal-section__article__wrapper {
         min-width: unset;
+    }
+
+    .proposal-section article:nth-child(4) {
+        padding-bottom: 60px;
     }
 
     .localize-section__cards {
@@ -453,5 +469,95 @@
         justify-content: center;
         flex-wrap: wrap;
         row-gap: 20px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .main-section__title {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .main-section {
+        padding-top: 45px;
+        padding-bottom: 55px;
+    }
+
+    .main-section__text {
+        margin-top: 25px;
+        font-size: 17px;
+        line-height: 29px;
+    }
+
+    .main-section__info {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .partners-section {
+        padding: 48px 0;
+    }
+
+    .partners-section {
+        padding-top: 48px;
+        padding-bottom: 65px;
+    }
+
+    .partners-section__logo {
+        row-gap: 45px;
+        margin-top: 45px;
+    }
+
+    .proposal-section article:nth-child(1) {
+        padding-top: 60px;
+    }
+
+    .proposal-section__article {
+        justify-content: center;
+        padding: 25px 0;
+    }
+
+    .article__text {
+        margin-top: 10px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .boost-section__article__title {
+        margin-top: 28px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .boost-section__article__text {
+        margin-top: 15px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .revolut-section__text {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    .revolut-section__author-info {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .revolut-link {
+        margin-top: 10px;
+    }
+
+    .reward-section {
+        padding: 60px 0;
+    }
+
+    .integration-section {
+        padding: 65px 0;
     }
 }
