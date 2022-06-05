@@ -1,0 +1,50 @@
+/* Partners-section*/
+@use '../modules/forward';
+.partners-section {
+    background: forward.$v-colorOrange;
+    padding: 106px 0;
+
+    &__title {
+        margin: 0 auto;
+        max-width: 720px;
+        text-align: center;
+    }
+
+    &__logo {
+        @include forward.m-flex(space-between, center);
+        margin-top: 70px;
+    }
+
+    &__logo__specialized {
+        max-width: 138px;
+    }
+
+    &__logo__virgin {
+        max-width: 72px;
+    }
+
+    &__logo__tidal {
+        max-width: 150px;
+    }
+
+    .partnerss-section__logo__revolut {
+        max-width: 112px;
+    }
+
+    &__logo__yelp {
+        max-width: 107px;
+    }
+
+    &__logo__daimler {
+        max-width: 150px;
+    }
+
+    &__link {
+        transform: scale(1);
+    }
+
+    &__link:hover {
+        transform: scale(1.1);
+        transition: 0.2s ease-in;
+    }
+}

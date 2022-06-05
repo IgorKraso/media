@@ -1,40 +1,40 @@
 .boost-section {
     padding-top: 154px;
     padding-bottom: 187px;
-}
 
-.boost-section__title {
+
+&__title {
     max-width: 1210px;
     margin: 0 auto;
 }
 
-.boost-section__articles {
+&__articles {
     margin-top: 92px;
     display: flex;
     justify-content: space-between;
     column-gap: 30px;
 }
 
-.boost-section__article {
+&__article {
     position: relative;
     min-height: 546px;
     padding-bottom: 40px;
 }
 
-.boost-section__article__img {
+&__article__img {
     width: 100%;
     max-width: 179px;
     max-height: 167px;
 }
 
-.boost-section__article__title {
+&__article__title {
     margin-top: 60px;
     font-weight: 600;
     font-size: 30px;
     line-height: 40px;
 }
 
-.boost-section__article__text {
+&__article__text {
     margin-top: 34px;
     max-width: 409px;
     font-weight: 400;
@@ -42,7 +42,7 @@
     line-height: 30px;
 }
 
-.boost-section__article__link {
+&__article__link {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -53,6 +53,7 @@
     line-height: 22px;
 }
 
-.boost-section__text-wrapper {
+&__text-wrapper {
     display: flex;
+}
 }

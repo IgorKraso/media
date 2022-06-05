@@ -1,0 +1,117 @@
+/* Footer*/
+@use '../modules/forward';
+.footer {
+    padding-top: 92px;
+
+    &__columns__wrapper {
+        @include forward.m-flex(space-between, baseline);
+        column-gap: 10px;
+        padding-bottom: 95px;
+        border-bottom: 1px solid forward.$v-colorBlack;
+    }
+
+    &__article {
+        max-width: 370px;
+    }
+
+    &__article__title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    &__article__imgwrapper {
+        max-width: 300px;
+        margin-top: 28px;
+    }
+
+    &__aticle__img {
+        width: 100%;
+    }
+
+    &__article__logowrapper {
+        margin-top: 32px;
+    }
+
+    &__article__text {
+        max-width: 290px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    &__article__link {
+        display: inline-block;
+        margin-top: 15px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        border-bottom: 2px solid forward.$v-colorBlack;
+        color: forward.$v-colorBlack;
+    }
+
+    &__col__wrapper {
+        display: flex;
+        row-gap: 40px;
+        column-gap: 40px;
+        justify-content: space-between;
+    }
+
+    &__col {
+        padding: 0 10px;
+    }
+
+    &__col__title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    &__col__list {
+        margin-top: 21px;
+    }
+
+    &__col__linklist {
+        margin-bottom: 15px;
+    }
+
+    &__col_link {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 15px;
+        color: forward.$v-colorBlack;
+    }
+
+    &__copy {
+        @include forward.m-flex(space-between, center);
+        flex-wrap: wrap;
+        padding-top: 52px;
+        padding-bottom: 43px;
+    }
+
+    &__copy__leftside {
+        max-width: 410px;
+    }
+
+    &__logo__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+
+    &__logo__img {
+        display: inline-block;
+        width: 90px;
+    }
+
+    .footer-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    &__copy__slogan {
+        max-width: 301px;
+        margin-left: 15px;
+    }
+}

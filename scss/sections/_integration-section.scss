@@ -1,0 +1,48 @@
+/* Integration-section */
+@use '../modules/forward';
+.integration-section {
+    background: forward.$v-colorWhite;
+    padding: 163px 0;
+
+    &__title {
+        @include forward.m-possize(791px);
+        font-weight: 600;
+        font-size: 65px;
+        line-height: 75px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        @include forward.m-possize(539px);
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    &__img-wrapper {
+        margin: 25px auto 0;
+        max-width: 1023px;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__btn {
+        display: block;
+        width: 193px;
+        margin: 32px auto 0;
+        padding: 20px 0;
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        background-color: forward.$v-colorOrange;
+        color: forward.$v-colorWhite;
+
+        &:hover {
+            background-color: forward.$v-colorOrangeHover;
+            transition: 0.3s ease-in;
+        }
+    }
+}

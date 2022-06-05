@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1024px) {
     /* main */
-    .conteiner {
+    .container {
         padding: 0 40px;
     }
 
@@ -31,7 +31,7 @@
 
     /* header */
 
-    .header__conteiner {
+    .header__container {
         padding: 0 40px;
     }
 
@@ -47,50 +47,50 @@
     .main-section {
         padding-top: 105px;
         padding-bottom: 120px;
-    }
 
-    .main-section__wrapper {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-    .main-section-img__wrapper {
-        display: none;
-    }
+        .main-section-img__wrapper {
+            display: none;
+        }
 
-    .main-section__title {
-        max-width: 100%;
-        font-size: 55px;
-        line-height: 60px;
-    }
+        &__title {
+            max-width: 100%;
+            font-size: 55px;
+            line-height: 60px;
+        }
 
-    .main-section__text {
-        max-width: 100%;
-    }
+        &__text {
+            max-width: 100%;
+        }
 
-    .main-section__mobile {
-        display: block;
-        margin: 10px 0;
+        &__mobile {
+            display: block;
+            margin: 10px 0;
+        }
     }
 
     /* partner-section */
 
     .partners-section {
         padding: 106px 0;
-    }
 
-    .partners-section__title {
-        max-width: 720px;
-        text-align: center;
-    }
+        &__title {
+            max-width: 720px;
+            text-align: center;
+        }
 
-    .partners-section__logo {
-        column-gap: 150px;
-        row-gap: 50px;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-top: 70px;
+        &__logo {
+            column-gap: 150px;
+            row-gap: 50px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 70px;
+        }
     }
 
     /* proposal */
@@ -104,18 +104,18 @@
     .boost-section {
         padding-top: 70px;
         padding-bottom: 120px;
-    }
 
-    .boost-section__articles {
-        column-gap: 50px;
-        row-gap: 115px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+        &__articles {
+            column-gap: 50px;
+            row-gap: 115px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
 
-    .boost-section__title {
-        max-width: 100%;
-        text-align: center;
+        &__title {
+            max-width: 100%;
+            text-align: center;
+        }
     }
 
     /* revolut-section */
@@ -156,34 +156,34 @@
     /* integration-section */
     .integration-section {
         padding: 100px 0;
-    }
 
-    .integration-section__title {
-        font-size: 50px;
-        line-height: 65px;
-    }
+        &__title {
+            font-size: 50px;
+            line-height: 65px;
+        }
 
-    .integration-section__subtitle {
-        font-size: 22px;
-        line-height: 28px;
+        &__subtitle {
+            font-size: 22px;
+            line-height: 28px;
+        }
     }
 
     /* tryit-section */
     .tryit-section {
         padding-top: 80px;
         padding-bottom: 90px;
-    }
 
-    .tryit-section__title {
-        font-size: 50px;
-        line-height: 65px;
+        &__title {
+            font-size: 50px;
+            line-height: 65px;
+        }
     }
 
     /* footer */
 
     .footer__columns__wrapper {
         justify-content: center;
-        align-items: none;
+        align-items: unset;
         flex-wrap: wrap;
         row-gap: 50px;
         padding-bottom: 60px;
@@ -230,17 +230,17 @@
     .main-section {
         padding-top: 65px;
         padding-bottom: 80px;
-    }
 
-    .main-section__title {
-        font-size: 40px;
-        line-height: 55px;
-    }
+        &__title {
+            font-size: 40px;
+            line-height: 55px;
+        }
 
-    .main-section__text {
-        margin-top: 40px;
-        font-size: 20px;
-        line-height: 29px;
+        &__text {
+            margin-top: 40px;
+            font-size: 20px;
+            line-height: 29px;
+        }
     }
 
     /* partners-section */
@@ -333,11 +333,11 @@
     .revolut-section {
         padding-top: 53px;
         padding-bottom: 73px;
-    }
 
-    .revolut-section__text {
-        font-size: 19px;
-        line-height: 30px;
+        &__text {
+            font-size: 19px;
+            line-height: 30px;
+        }
     }
 
     /* reward-section */
@@ -369,29 +369,29 @@
     .tryit-section {
         padding-top: 64px;
         padding-bottom: 78px;
-    }
 
-    .tryit-section__title {
-        font-size: 38px;
-        line-height: 49px;
+        &__title {
+            font-size: 38px;
+            line-height: 49px;
+        }
     }
 
     /* footer */
     .footer {
         padding-top: 60px;
-    }
 
-    .footer__article__title {
-        font-size: 35px;
-        line-height: 44px;
+        &__article__title {
+            font-size: 35px;
+            line-height: 44px;
+        }
     }
 }
 @media screen and (max-width: 660px) {
-    .header__conteiner {
+    .header__container {
         padding: 0 20px;
     }
 
-    .conteiner {
+    .container {
         padding: 0 30px;
     }
 
@@ -472,34 +472,29 @@
     }
 }
 @media screen and (max-width: 360px) {
-    .main-section__title {
-        font-size: 36px;
-        line-height: 43px;
-    }
-
     .main-section {
         padding-top: 45px;
         padding-bottom: 55px;
-    }
 
-    .main-section__text {
-        margin-top: 25px;
-        font-size: 17px;
-        line-height: 29px;
-    }
+        &__text {
+            margin-top: 25px;
+            font-size: 17px;
+            line-height: 29px;
+        }
 
-    .main-section__info {
-        margin-top: 20px;
-        font-size: 14px;
+        &__info {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        &__title {
+            font-size: 36px;
+            line-height: 43px;
+        }
     }
 
     .title {
         font-size: 30px;
         line-height: 43px;
-    }
-
-    .partners-section {
-        padding: 48px 0;
     }
 
     .partners-section {

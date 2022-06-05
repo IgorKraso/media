@@ -1,16 +1,17 @@
+/*Localize-section*/
 .localize-section {
     padding-top: 120px;
     padding-bottom: 150px;
     background-color: #fff8e4;
-}
 
-.localize-section__title {
+
+&__title {
     max-width: 890px;
     text-align: center;
     margin: 0 auto;
 }
 
-.localize-section__cards {
+&__cards {
     display: flex;
     column-gap: 130px;
     row-gap: 54px;
@@ -19,7 +20,7 @@
     justify-content: center;
 }
 
-.localize-section__card {
+&__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,4 +46,5 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
+}
 }

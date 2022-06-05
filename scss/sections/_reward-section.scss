@@ -1,0 +1,41 @@
+/* Reward-section  */
+@use '../modules/forward';
+.reward-section {
+    padding: 82px 0;
+    background-color: forward.$v-colorReward;
+
+    &__content {
+        @include forward.m-flex(space-between, center);
+    }
+
+    &__icon {
+        max-width: 176px;
+    }
+
+    &__title {
+        max-width: 461px;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    &__rate {
+        display: flex;
+        justify-content: space-evenly;
+        width: 481px;
+        padding-top: 30px;
+        padding-bottom: 23px;
+        border-left: 1px solid forward.$v-colorBlack;
+    }
+}
+.rate__icon__first-wrapper {
+    max-width: 128px;
+}
+
+.rate__icon__second-wrapper {
+    max-width: 150px;
+}
+
+.rate__icon {
+    width: 100%;
+}

@@ -1,0 +1,45 @@
+/* Revolut-section*/
+.revolut-section {
+    padding-top: 53px;
+    padding-bottom: 105px;
+    background-color: #c9e8f2;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+    }
+
+    &__figure {
+        max-width: 870px;
+    }
+
+    &__text {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    &__author-info {
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .revolut-link {
+        display: inline-block;
+        margin-top: 7px;
+    }
+
+    &__img-wrapper {
+        max-width: 310px;
+    }
+
+    &__author-pic {
+        width: 100%;
+    }
+}

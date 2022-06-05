@@ -1,0 +1,14 @@
+@mixin fontgen {
+    font-style: normal;
+    font-weight: 600;
+}
+
+@mixin possize($max-width) {
+    margin: 0 auto;
+    max-width: $max-width;
+}
+@mixin flex($juscon, $alitems) {
+    display: flex;
+    justify-content: $juscon;
+    align-items: $alitems;
+}

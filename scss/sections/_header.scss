@@ -1,0 +1,100 @@
+/*  Header  */
+@use '../modules/forward';
+.header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: forward.$v-colorWhite;
+    border-bottom: 1px solid forward.$v-colorBorderWhite;
+
+    &__container {
+        max-width: 1388px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    &__wrapper {
+        @include forward.m-flex(space-between, center);
+    }
+
+    .logo-img {
+        max-width: 130px;
+    }
+
+    .inner-wrapper {
+        display: flex;
+        gap: 50px;
+    }
+
+    &__nav {
+        display: inline-flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .inner-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__link {
+        padding: 4px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        color: forward.$v-colorBlack;
+        transition: 0.1s linear;
+    }
+
+    .nav__link:hover {
+        outline: 2px solid;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 10px;
+    }
+
+    &__btn {
+        text-align: center;
+        min-width: 120px;
+        padding: 12px 0;
+    }
+
+    .log-in__btn {
+        background-color: transparent;
+        border: 1px solid forward.$v-colorBorderBlackAlfa;
+        color: forward.$v-colorBlack;
+
+        &:hover {
+            background-color: forward.$v-colorWhiteHover;
+            border: 1px solid forward.$v-colorBlackAlfaHover;
+            color: forward.$v-colorBlackHover;
+            transition: 0.3s ease-in;
+        }
+    }
+    .try-it__btn {
+        background-color: forward.$v-colorOrange;
+        color: forward.$v-colorWhite;
+
+        &:hover {
+            background-color: forward.$v-colorOrangeHover;
+            transition: 0.3s ease-in;
+        }
+    }
+    &__mobile {
+        display: none;
+        margin: 0 auto;
+        width: 40px;
+        height: 40px;
+        padding: 5px 0;
+        cursor: pointer;
+    }
+
+    &__mobile__line {
+        height: 5px;
+        margin: 3px;
+        background-color: forward.$v-colorBlack;
+    }
+}

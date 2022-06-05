@@ -1,0 +1,54 @@
+// Reset styles
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        text-decoration: none;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &:focus,
+    &:active {
+        outline: none;
+    }
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Graphik LC TT', sans-serif;
+    color: #000;
+    font-size: 100%;
+    line-height: 1;
+    text-size-adjust: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}

@@ -1,0 +1,47 @@
+/* Try-it-section */
+@use '../modules/forward';
+.tryit-section {
+    padding-top: 119px;
+    padding-bottom: 161px;
+    background-color: forward.$v-colorOrange;
+
+    &__wrapper {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    &__title {
+        max-width: 784px;
+        font-size: 65px;
+        line-height: 75px;
+        text-align: center;
+    }
+
+    &__subtitle {
+        margin-top: 29px;
+        max-width: 438px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .try-it-section__btn {
+        margin-top: 54px;
+        width: 160px;
+        padding: 19px 0;
+        text-align: center;
+        background-color: forward.$v-colorBlack;
+        color: forward.$v-colorWhite;
+
+        &:hover {
+            background-color: forward.$v-colorHoverGrey;
+            transition: 0.3s linear;
+        }
+
+        &:active {
+            background-color: forward.$v-colorBorderBlackAlfa;
+        }
+    }
+}
